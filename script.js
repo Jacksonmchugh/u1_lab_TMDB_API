@@ -24,6 +24,6 @@ function renderList(arr) {
     picture.appendChild(li)
     let image = document.createElement('img')
     image.src = `${IMAGE_BASE_PATH}/${arr[i].poster_path}`
-    li.appendChild(image)
+    picture.appendChild(image)
   }
 }
